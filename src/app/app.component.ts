@@ -183,7 +183,7 @@ export class AppComponent {
       }
       this.changeQuiz();
       this.numOfQuizsA--;
-  }, 3000);
+  }, 20000);
 }
 
 letsPlayQuizB(){
@@ -197,7 +197,7 @@ letsPlayQuizB(){
     }
     this.changeQuizB();
     this.numOfQuizsB--;
-}, 3000);
+}, 20000);
 }
 
  changeQuiz() {
